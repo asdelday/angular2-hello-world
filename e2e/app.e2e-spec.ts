@@ -1,10 +1,10 @@
-import { Angular2RedditClonePage } from './app.po';
+import { Angular2HelloWorldPage } from './app.po';
 
-describe('angular2-reddit-clone App', () => {
-  let page: Angular2RedditClonePage;
+describe('angular2-hello-world App', () => {
+  let page: Angular2HelloWorldPage;
 
   beforeEach(() => {
-    page = new Angular2RedditClonePage();
+    page = new Angular2HelloWorldPage();
   });
 
   it('should display message saying app works', () => {
